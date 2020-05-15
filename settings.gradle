@@ -1,0 +1,2 @@
+rootProject.name='CleanNote'
+include ':app'

@@ -1,8 +1,8 @@
-package com.practice.cleannote.business.data.network.abstraction
+package com.practice.cleannote.framework.datasource.network.abstraction
 
 import com.practice.cleannote.business.domain.model.Note
 
-interface NoteNetworkDataSource {
+interface NoteFirestoreService {
     suspend fun insertOrUpdateNote(note: Note)
 
     suspend fun insertDeletedNotes(notes: List<Note>)

@@ -2,6 +2,7 @@ package com.practice.cleannote.business.data.cache.implemetation
 
 import com.practice.cleannote.business.data.cache.abstraction.NoteCacheDataSource
 import com.practice.cleannote.business.domain.model.Note
+import com.practice.cleannote.framework.datasource.cache.abstraction.NoteDaoService
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -28,7 +29,9 @@ constructor(
         query: String,
         filterAndOrder: String,
         page: Int
-    ): List<Note> = noteDaoService.searchNotes(query, filterAndOrder, page)
+    ): List<Note> {
+        TODO("Check filterAndOrder and make query")
+    }
 
     override suspend fun searchNoteById(id: String): Note? = noteDaoService.searchNoteById(id)
 

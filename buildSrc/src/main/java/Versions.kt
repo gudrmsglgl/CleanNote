@@ -37,4 +37,10 @@ object Versions {
     val fragment_version = "1.2.0"
     val androidx_test_ext = "1.1.1"
     val fabric_version = "1.31.2"
+    val rxJavaVersion = "2.0.2"
+    val rxKotlinVersion = "2.1.0"
+    val rxAndroidVersion = "2.0.1"
+    val hamcrest_version = "2.2"
+    val mockito_version = "2.21.0"
+    val mockito_kotlin_version = "2.2.0"
 }

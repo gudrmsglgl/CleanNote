@@ -3,7 +3,6 @@ package com.practice.cleannote.util
 import android.util.Log
 import com.practice.cleannote.util.Constants.DEBUG
 import com.practice.cleannote.util.Constants.TAG
-
 var isUnitTest = false
 
 fun printLogD(className: String?, message: String ) {
@@ -13,4 +12,16 @@ fun printLogD(className: String?, message: String ) {
     else if(DEBUG && isUnitTest){
         println("$className: $message")
     }
+}
+
+/*
+    Priorities: Log.DEBUG, Log. etc....
+ */
+fun cLog(msg: String?){
+    msg?.let {
+        if(!DEBUG){
+            //FirebaseCrashlytics.getInstance().log(it)
+        }
+    }
+
 }

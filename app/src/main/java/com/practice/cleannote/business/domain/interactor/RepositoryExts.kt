@@ -1,3 +1,4 @@
+/*
 package com.practice.cleannote.business.domain.interactor
 
 import com.practice.cleannote.business.data.GenericErrors.ERROR_UNKNOWN
@@ -17,9 +18,11 @@ import kotlinx.coroutines.withTimeout
 import retrofit2.HttpException
 import java.io.IOException
 
+*/
 /**
  * Reference: https://medium.com/@douglas.iacovelli/how-to-handle-errors-with-retrofit-and-coroutines-33e7492a912
- */
+ *//*
+
 
 suspend fun <T> safeApiCall(
     dispatcher: CoroutineDispatcher,
@@ -96,3 +99,4 @@ private fun convertErrorBody(throwable: HttpException): String? {
         ERROR_UNKNOWN
     }
 }
+*/

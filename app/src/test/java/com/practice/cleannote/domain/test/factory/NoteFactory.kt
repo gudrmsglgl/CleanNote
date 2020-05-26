@@ -1,5 +1,6 @@
 package com.practice.cleannote.domain.test.factory
 
+import com.practice.cleannote.business.data.model.NoteEntity
 import com.practice.cleannote.business.domain.model.Note
 import com.practice.cleannote.business.domain.util.DateUtil
 import java.text.DateFormat
